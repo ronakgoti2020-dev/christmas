@@ -136,8 +136,8 @@ The website and API are the same FastAPI app in `backend/`. Deploy that. Then po
    Or create a **Web Service** manually:
    - Runtime: Docker
    - **Root Directory:** `backend`
-   - **Dockerfile path:** `Dockerfile`
-   - **Docker build context:** `backend`
+   - **Dockerfile path:** `Dockerfile` (not `backend/Dockerfile`)
+   - **Docker build context:** leave empty or `.` (not `backend`)
    - Add a **Postgres** database and copy its Internal Database URL into `DATABASE_URL`.
 4. Set environment variables:
 
