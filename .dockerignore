@@ -1,0 +1,10 @@
+.git
+.venv
+backend/.venv
+backend/.pytest_cache
+**/__pycache__
+**/*.pyc
+.env
+android
+*.md
+.DS_Store

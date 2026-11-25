@@ -135,8 +135,8 @@ The website and API are the same FastAPI app in `backend/`. Deploy that. Then po
 3. **New** → **Blueprint** → select this repository (`render.yaml` is already in the repo).
    Or create a **Web Service** manually:
    - Runtime: Docker
-   - Dockerfile path: `backend/Dockerfile`
-   - Docker context: `backend`
+   - Dockerfile path: `Dockerfile` (repo root — Render’s build context is the whole repo)
+   - If you instead use `backend/Dockerfile`, set the Docker context / Root Directory to `backend`
    - Add a **Postgres** database and copy its Internal Database URL into `DATABASE_URL`.
 4. Set environment variables:
 
