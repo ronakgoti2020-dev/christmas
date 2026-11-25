@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.SecretSanta" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#6B1C2A</item>
+        <item name="android:navigationBarColor">#1B4332</item>
+        <item name="android:windowBackground">#FFF7F2</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.env
+uploads/
+*.db
+.idea/
+.gradle/
+**/build/
+local.properties
+*.iml
+.DS_Store
+android/.gradle/
+android/app/build/
