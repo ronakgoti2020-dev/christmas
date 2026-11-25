@@ -2,8 +2,9 @@ services:
   - type: web
     name: secretsanta
     runtime: docker
-    dockerfilePath: ./Dockerfile
-    dockerContext: .
+    rootDir: backend
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
     healthCheckPath: /health
     envVars:
       - key: APP_ENV
